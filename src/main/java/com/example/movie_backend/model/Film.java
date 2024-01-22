@@ -17,6 +17,8 @@ public class Film {
     private int filmDuration;
     private FilmType filmType;
     private String studio;
+    private String poster;
+
 
     @ManyToOne
     @JoinColumn(name = "producerId", referencedColumnName = "personId")

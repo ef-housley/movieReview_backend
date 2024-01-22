@@ -10,7 +10,7 @@ public class Studio {
     @Id
     private String studioName;
 
-    private String address;
+    private String studioAddress;
 
     @ManyToOne
     @JoinColumn(name = "president", referencedColumnName = "personId")
